@@ -1,0 +1,11 @@
+{
+  "providers": [
+    "CleanSolutions\\Sortable\\ServiceProvider"
+  ],
+  "aliases": [
+    {
+      "alias": "Sortable",
+      "facade": "CleanSolutions\\Sortable\\Facades\\Sortable"
+    }
+  ]
+}

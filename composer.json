@@ -1,0 +1,25 @@
+{
+    "name": "clean-solutions/sortable",
+    "type": "library",
+    "description": "Package for handling column sorting",
+    "keywords": ["laravel", "column", "sorting", "sortable", "sort"],
+    "homepage": "https://github.com/clean-solutions/sortable",
+    "authors": [
+        {
+            "name": "Zygimantas Gylys",
+            "email": "zygimantas.gylys@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CleanSolutions\\Sortable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
